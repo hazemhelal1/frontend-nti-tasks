@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            table, th, td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: left;
+            }
+
+            th {
+                background-color: #f2f2f2;
+            }
+            td, th, tr[colspan="4"] {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">Header</th>
+                </tr>
+                <tr>
+                    <th colspan="4">nav</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div>
+                            <form>
+                                <label for="username">UserName</label>
+                                <input id="username" minlength="3" placeholder="Enter your username" required/>
+                                <br>
+                                <label for="password">Password</label>
+                                <input id="password" placeholder="Enter your password" type="password" />
+                                <button type="submit">Submit</button>
+                            </form>
+
+                            <br>
+                            <p>My Pages Online</p>
+
+                            <br>
+                            <iframe src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" width="30%" ></iframe>
+                        </div>
+                    </td>
+
+
+                    <td colspan="2">
+                        <p> My Portfolio</p>
+                        <ul>
+                            <li>Name</li>
+                            <li>Age</li>
+                            <li>Address</li>
+                            <li>
+                                <a href="https://www.hhelal.dev" target="_blank">my real portfolio</a>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <img src="./Avatar.jpg" alt="Avatar" width="100%">
+                        <br>
+                        <p>News</p>
+                    </td>
+
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Footer</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>

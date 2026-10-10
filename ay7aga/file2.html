@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard Overview</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      border: 16px solid #ccc;
+      padding: 16px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .item {
+      display: flex;
+      justify-content: space-between;
+      padding: 4px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Dashboard Overview</h1>
+  <p>Welcome back! Here's what's happening today.</p>
+
+  <div class="grid">
+    <div class="card">Total Revenue <h2>$48,291</h2> ↑ 12%</div>
+    <div class="card">Total Users <h2>15,847</h2> ↑ 8%</div>
+    <div class="card">Total Orders <h2>2,847</h2> ↑ 13%</div>
+    <div class="card">Products <h2>1,247</h2> ↑ 5%</div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Revenue Analytics</h2>
+    </div>
+
+    <div class="card">
+      <h2>Top Products</h2>
+      <div class="item"><span>iPhone 15 Pro</span> <span>$1,299 (+12%)</span></div>
+      <div class="item"><span>MacBook Pro</span> <span>$2,499 (+8%)</span></div>
+      <div class="item"><span>AirPods Pro</span> <span>$249 (+15%)</span></div>
+      <div class="item"><span>Apple Watch</span> <span>$399 (+6%)</span></div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mint Navigation</title>
+    <style>
+        body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #078bd1; font-family: Arial, sans-serif; }
+        nav { width: min(92%, 760px); padding: 16px; display: flex; align-items: center; gap: 16px; border-radius: 20px; background: #def0cf; }
+        .brand-mark { width: 30px; height: 30px; flex: none; border-radius: 50%; background: #d1dfc9; }
+        .links { display: flex; flex: 1; gap: 20px; }
+        a { color: #344e48; font-size: 14px; font-weight: bold; text-decoration: none; }
+        .cta { padding: 12px 15px; border-radius: 9px; background: #e47b60; color: white; }
+    </style>
+</head>
+<body>
+    <nav class="nav-bar" aria-label="Main navigation">
+        <a class="brand-mark" href="#home" aria-label="Home"></a>
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <a class="cta" href="#started">Get Started</a>
+    </nav>
+</body>
+</html>
